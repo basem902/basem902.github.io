@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<!--
+  صفحة شخصية دعائية — باسم محمد الحجري
+  معلم حاسب ومطور برمجيات
+  ملف واحد مكتفٍ ذاتيًا: HTML + CSS + JS (بدون أدوات بناء)
+  RTL — Dark/Light — متجاوب — أنميشن هادئ — واتساب عائم
+-->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>باسم محمد الحجري | معلم حاسب ومطور برمجيات وحلول ذكاء اصطناعي</title>
+<meta name="description" content="باسم محمد الحجري — معلم حاسب ومطور برمجيات ومصمم حلول رقمية. أبني تطبيقات ومواقع وأنظمة SaaS وأتمتة واتساب بالذكاء الاصطناعي، وأدرّب الطلاب الموهوبين على تحويل أفكارهم إلى منتجات تعمل فعليًا." />
+<meta name="keywords" content="باسم الحجري, مطور مواقع, معلم حاسب, ذكاء اصطناعي, تطبيقات, أنظمة SaaS, أتمتة واتساب, السعودية, تدريب الموهوبين" />
+<meta name="author" content="باسم محمد الحجري" />
+<meta name="theme-color" content="#070b16" id="metaTheme" />
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="profile" />
+<meta property="og:locale" content="ar_SA" />
+<meta property="og:title" content="باسم محمد الحجري | معلم حاسب ومطور برمجيات" />
+<meta property="og:description" content="أجمع بين خبرة الميدان التعليمي وتطوير الأنظمة الحديثة لبناء تطبيقات ومواقع ومنصات تساعد المدارس والمعاهد وأصحاب الأعمال على التحول الرقمي من الفكرة حتى التشغيل." />
+<meta property="og:site_name" content="باسم محمد الحجري" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="باسم محمد الحجري | معلم حاسب ومطور برمجيات" />
+<meta name="twitter:description" content="مطوّر أنظمة تعليمية وتجارية وحلول ذكاء اصطناعي وأتمتة واتساب — من الفكرة إلى التشغيل." />
+
+<!-- Favicon (SVG مضمّن) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232563eb'/%3E%3Cstop offset='1' stop-color='%2310b981'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='44' font-family='Tajawal,Arial' font-size='34' font-weight='800' fill='white' text-anchor='middle'%3E%D8%A8%3C/text%3E%3C/svg%3E" />
+
+<!-- خط عربي احترافي -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
+
+<!-- بيانات منظمة (Person) — بدون بيانات حساسة -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "باسم محمد الحجري",
+  "alternateName": "BASEM MOHAMMED HOMIED ALHAJRI",
+  "jobTitle": "معلم حاسب ومطور برمجيات",
+  "description": "معلم حاسب ومطور برمجيات ومصمم حلول رقمية، متخصص في بناء التطبيقات والمواقع وأنظمة SaaS وأتمتة واتساب بالذكاء الاصطناعي، وتدريب الطلاب الموهوبين.",
+  "telephone": "+966558048004",
+  "knowsAbout": ["تطوير المواقع", "تطوير التطبيقات", "أنظمة SaaS", "الذكاء الاصطناعي", "أتمتة واتساب", "قواعد البيانات", "أنظمة نقاط البيع", "التعليم"],
+  "hasCredential": { "@type": "EducationalOccupationalCredential", "name": "شهادة عمل حر في برمجة وتطوير المواقع الإلكترونية", "credentialCategory": "certificate" },
+  "sameAs": ["https://wa.me/966558048004"]
+}
+</script>
+
+<style>
+  /* ============ المتغيّرات والثيمات ============ */
+  :root{
+    --font: 'Tajawal', 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+
+    /* الوضع النهاري (افتراضي) */
+    --bg: #f6f8fc;
+    --bg-soft: #eef2f9;
+    --surface: #ffffff;
+    --surface-2: #f9fbff;
+    --card-border: #e6ecf5;
+    --text: #0f1b33;
+    --text-soft: #40506b;
+    --muted: #566277;
+
+    --primary: #1d4ed8;      /* أزرق عميق */
+    --primary-2: #2563eb;
+    --primary-deep: #12276b;
+    --emerald: #047857;      /* أخضر */
+    --emerald-2: #10b981;
+    --sky: #0ea5e9;          /* سماوي */
+    --gold: #7a5a06;         /* ذهبي */
+    --gold-2: #d4a933;
+
+    --ring: #1d4ed8;
+    --shadow-sm: 0 1px 2px rgba(16,30,54,.06), 0 4px 14px rgba(16,30,54,.06);
+    --shadow: 0 10px 30px -12px rgba(16,30,54,.22);
+    --shadow-lg: 0 24px 60px -20px rgba(16,30,54,.28);
+
+    --grad-brand: linear-gradient(120deg, #2563eb 0%, #0ea5e9 45%, #10b981 100%);
+    --grad-gold: linear-gradient(120deg, #d4a933, #b8860b);
+    --wa: #25d366;
+
+    --radius: 20px;
+    --radius-sm: 14px;
+    --container: 1200px;
+    --nav-h: 72px;
+  }
+
+  html[data-theme="dark"]{
+    --bg: #070b16;
+    --bg-soft: #0b1120;
+    --surface: #0f1728;
+    --surface-2: #131d31;
+    --card-border: rgba(255,255,255,.08);
+    --text: #eaf1fc;
+    --text-soft: #c1cde0;
+    --muted: #90a0bb;
+
+    --primary: #60a5fa;
+    --primary-2: #3b82f6;
+    --primary-deep: #93c5fd;
+    --emerald: #34d399;
+    --emerald-2: #10b981;
+    --sky: #38bdf8;
+    --gold: #e6c766;
+    --gold-2: #f0d78a;
+
+    --ring: #93c5fd;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    --shadow: 0 18px 44px -18px rgba(0,0,0,.6);
+    --shadow-lg: 0 30px 70px -20px rgba(0,0,0,.7);
+
+    --grad-brand: linear-gradient(120deg, #3b82f6 0%, #38bdf8 45%, #34d399 100%);
+  }
+
+  /* ============ الأساسيات ============ */
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--font);
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  h1,h2,h3,h4{line-height:1.3;margin:0;font-weight:800;letter-spacing:-.2px}
+  p{margin:0}
+  ul{margin:0;padding:0;list-style:none}
+  section{scroll-margin-top:90px}
+  :focus-visible{outline:3px solid var(--ring);outline-offset:2px;border-radius:8px}
+
+  .container{max-width:var(--container);margin-inline:auto;padding-inline:20px}
+  .icon{width:1em;height:1em;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+  /* شريط تقدم القراءة */
+  .progress{position:fixed;top:0;inset-inline-start:0;height:3px;width:0;z-index:120;
+    background:var(--grad-brand);box-shadow:0 0 12px rgba(37,99,235,.5)}
+
+  /* ============ شريط التنقل ============ */
+  header.nav{
+    position:sticky;top:0;z-index:100;height:var(--nav-h);
+    display:flex;align-items:center;
+    background:color-mix(in srgb, var(--bg) 78%, transparent);
+    backdrop-filter:saturate(160%) blur(14px);
+    -webkit-backdrop-filter:saturate(160%) blur(14px);
+    border-bottom:1px solid var(--card-border);
+  }
+  .nav .container{display:flex;align-items:center;gap:16px;width:100%}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.05rem;margin-inline-end:auto}
+  .brand .logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;color:#fff;
+    background:var(--grad-brand);font-weight:900;box-shadow:var(--shadow-sm)}
+  .brand small{display:block;font-weight:500;font-size:.72rem;color:var(--muted);margin-top:-3px}
+  .nav-links{display:flex;align-items:center;gap:4px}
+  .nav-links a{padding:8px 12px;border-radius:10px;font-size:.95rem;color:var(--text-soft);font-weight:500;
+    transition:background .2s, color .2s}
+  .nav-links a:hover{background:var(--bg-soft);color:var(--text)}
+  .nav-actions{display:flex;align-items:center;gap:8px}
+
+  .iconbtn{width:44px;height:44px;border-radius:12px;border:1px solid var(--card-border);
+    background:var(--surface);color:var(--text);display:grid;place-items:center;cursor:pointer;
+    font-size:20px;transition:transform .15s, background .2s, border-color .2s}
+  .iconbtn:hover{transform:translateY(-2px);border-color:var(--primary)}
+  .theme-toggle .icon{transition:transform .4s ease}
+  html[data-theme="dark"] .theme-toggle .sun{display:block}
+  html[data-theme="dark"] .theme-toggle .moon{display:none}
+  .theme-toggle .sun{display:none}
+  .theme-toggle .moon{display:block}
+
+  .btn{display:inline-flex;align-items:center;gap:8px;justify-content:center;
+    padding:11px 18px;border-radius:12px;font-weight:700;font-size:.95rem;cursor:pointer;
+    border:1px solid transparent;font-family:inherit;transition:transform .15s, box-shadow .2s, background .2s, border-color .2s;white-space:nowrap}
+  .btn .icon{font-size:18px}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:var(--grad-brand);color:#fff;box-shadow:var(--shadow);text-shadow:0 1px 2px rgba(0,0,0,.32)}
+  .btn-primary:hover{box-shadow:var(--shadow-lg)}
+  .btn-wa{background:var(--wa);color:#062e14;box-shadow:0 10px 26px -10px rgba(37,211,102,.7);font-weight:800}
+  html[data-theme="dark"] .btn-wa{color:#04220f}
+  .btn-outline{background:var(--surface);color:var(--text);border-color:var(--card-border)}
+  .btn-outline:hover{border-color:var(--primary);color:var(--primary)}
+  .btn-ghost{background:transparent;color:var(--text-soft);border-color:transparent}
+  .btn-ghost:hover{background:var(--bg-soft);color:var(--text)}
+
+  .hamburger{display:none}
+
+  /* قائمة الجوال */
+  .mobile-menu{
+    position:fixed;inset:var(--nav-h) 0 auto 0;z-index:99;
+    background:var(--surface);border-bottom:1px solid var(--card-border);
+    box-shadow:var(--shadow);padding:14px 20px 20px;
+    max-height:calc(100dvh - var(--nav-h));overflow-y:auto;overscroll-behavior:contain;
+    display:flex;flex-direction:column;gap:6px;
+    transform:translateY(-12px);opacity:0;pointer-events:none;visibility:hidden;
+    transition:opacity .25s, transform .25s, visibility .25s;
+  }
+  .mobile-menu.open{opacity:1;transform:none;pointer-events:auto;visibility:visible}
+  .mobile-menu a{padding:12px 14px;border-radius:12px;color:var(--text-soft);font-weight:600}
+  .mobile-menu a:hover,.mobile-menu a:active{background:var(--bg-soft);color:var(--text)}
+  .mobile-menu .btn-wa{margin-top:8px}
+
+  /* ============ عناوين الأقسام ============ */
+  .section{padding:clamp(56px,8vw,104px) 0}
+  .kicker{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:.82rem;
+    letter-spacing:.4px;color:var(--primary);background:color-mix(in srgb,var(--primary) 12%,transparent);
+    padding:6px 14px;border-radius:999px;border:1px solid color-mix(in srgb,var(--primary) 22%,transparent)}
+  .kicker.k-gold{color:var(--gold);background:color-mix(in srgb,var(--gold) 14%,transparent);
+    border-color:color-mix(in srgb,var(--gold) 26%,transparent)}
+  .kicker.k-emerald{color:var(--emerald);background:color-mix(in srgb,var(--emerald) 14%,transparent);
+    border-color:color-mix(in srgb,var(--emerald) 26%,transparent)}
+  .section-head{max-width:720px;margin-bottom:44px}
+  .section-head.center{margin-inline:auto;text-align:center}
+  .section-head h2{font-size:clamp(1.7rem,3.6vw,2.6rem);margin:18px 0 12px;font-weight:900}
+  .section-head p{color:var(--muted);font-size:1.05rem}
+  .grad-text{background:var(--grad-brand);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+
+  /* ============ Hero ============ */
+  .hero{position:relative;overflow:hidden;padding-top:clamp(40px,7vw,80px);padding-bottom:clamp(48px,8vw,96px)}
+  .hero-bg{position:absolute;inset:0;z-index:-1;overflow:hidden}
+  .orb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;animation:float 16s ease-in-out infinite}
+  .orb.o1{width:460px;height:460px;background:#2563eb;top:-140px;inset-inline-end:-100px}
+  .orb.o2{width:420px;height:420px;background:#10b981;bottom:-160px;inset-inline-start:-120px;animation-delay:-5s}
+  .orb.o3{width:300px;height:300px;background:#0ea5e9;top:40%;inset-inline-start:38%;opacity:.28;animation-delay:-9s}
+  html[data-theme="dark"] .orb{opacity:.32}
+  .hero-bg .grid-overlay{position:absolute;inset:0;opacity:.5;
+    background-image:linear-gradient(var(--card-border) 1px,transparent 1px),linear-gradient(90deg,var(--card-border) 1px,transparent 1px);
+    background-size:54px 54px;
+    -webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 30%,#000 40%,transparent 100%);
+    mask-image:radial-gradient(ellipse 80% 60% at 50% 30%,#000 40%,transparent 100%)}
+
+  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(2rem,5.2vw,3.5rem);font-weight:900;line-height:1.18;margin:20px 0 18px}
+  .hero .lead{font-size:clamp(1.02rem,2.2vw,1.22rem);color:var(--text-soft);max-width:600px}
+  .hero .name-line{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--muted);font-weight:700}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+  .badge{display:inline-flex;align-items:center;gap:8px;font-size:.85rem;font-weight:600;color:var(--text-soft);
+    background:var(--surface);border:1px solid var(--card-border);padding:8px 14px;border-radius:999px;box-shadow:var(--shadow-sm)}
+  .badge .icon{font-size:16px;color:var(--emerald)}
+
+  /* بطاقة الهيرو البصرية */
+  .hero-visual{position:relative;display:grid;place-items:center;min-height:340px}
+  .avatar-ring{position:relative;width:min(300px,72vw);aspect-ratio:1;border-radius:50%;
+    display:grid;place-items:center;
+    background:conic-gradient(from 210deg,#2563eb,#0ea5e9,#10b981,#d4a933,#2563eb);
+    padding:5px;box-shadow:var(--shadow-lg);animation:spin 26s linear infinite}
+  .avatar-inner{width:100%;height:100%;border-radius:50%;background:var(--surface);
+    display:grid;place-items:center;text-align:center;color:var(--text);
+    animation:spin 26s linear infinite reverse}
+  .avatar-inner .mono{font-size:clamp(3rem,10vw,4.6rem);font-weight:900;
+    background:var(--grad-brand);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .avatar-inner span{display:block;font-size:.9rem;color:var(--muted);font-weight:600;margin-top:2px}
+  .float-card{position:absolute;background:var(--surface);border:1px solid var(--card-border);
+    border-radius:14px;padding:10px 14px;box-shadow:var(--shadow);display:flex;align-items:center;gap:10px;
+    font-size:.85rem;font-weight:700;animation:bob 6s ease-in-out infinite}
+  .float-card .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:#fff;font-size:18px}
+  .float-card small{display:block;font-weight:500;color:var(--muted);font-size:.72rem}
+  .fc-1{top:6%;inset-inline-start:-6%;animation-delay:-1s}
+  .fc-2{bottom:8%;inset-inline-end:-4%;animation-delay:-3s}
+  .fc-3{bottom:34%;inset-inline-start:-10%;animation-delay:-2s}
+
+  @keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(24px,-24px)}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+  /* ============ شريط الثقة ============ */
+  .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .trust-card{background:var(--surface);border:1px solid var(--card-border);border-radius:var(--radius);
+    padding:24px 20px;box-shadow:var(--shadow-sm);transition:transform .2s, box-shadow .2s, border-color .2s}
+  .trust-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--primary) 40%,var(--card-border))}
+  .trust-card .ic{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-size:24px;color:#fff;margin-bottom:14px}
+  .trust-card p{color:var(--text-soft);font-weight:600;font-size:.98rem}
+
+  /* ============ من أنا ============ */
+  .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start}
+  .about-text p{color:var(--text-soft);font-size:1.08rem;margin-bottom:18px}
+  .about-list{display:grid;gap:12px;margin-top:8px}
+  .about-list li{display:flex;align-items:flex-start;gap:12px;color:var(--text-soft);font-weight:600}
+  .about-list .icon{color:var(--emerald);font-size:20px;margin-top:3px}
+  .about-aside{background:var(--surface);border:1px solid var(--card-border);border-radius:var(--radius);
+    padding:28px;box-shadow:var(--shadow-sm);position:sticky;top:96px}
+  .about-aside h3{font-size:1.15rem;margin-bottom:6px}
+  .about-aside .since{font-size:3rem;font-weight:900;line-height:1;
+    background:var(--grad-gold);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .about-aside .mini{display:grid;gap:14px;margin-top:22px}
+  .about-aside .mini div{display:flex;align-items:center;gap:12px;font-weight:700;font-size:.95rem}
+  .about-aside .mini .icon{color:var(--primary);font-size:22px}
+
+  /* ============ بطاقات الخدمات ============ */
+  .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .cards-grid.cols-2{grid-template-columns:repeat(2,1fr)}
+  .service-card{background:var(--surface);border:1px solid var(--card-border);border-radius:var(--radius);
+    padding:26px 22px;box-shadow:var(--shadow-sm);position:relative;overflow:hidden;
+    transition:transform .2s, box-shadow .2s, border-color .2s}
+  .service-card::before{content:"";position:absolute;inset:0 auto auto 0;width:100%;height:3px;
+    background:var(--grad-brand);opacity:0;transition:opacity .25s}
+  .service-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);
+    border-color:color-mix(in srgb,var(--primary) 35%,var(--card-border))}
+  .service-card:hover::before{opacity:1}
+  .service-card .ic{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;font-size:26px;color:#fff;margin-bottom:16px}
+  .service-card h3{font-size:1.08rem;margin-bottom:8px}
+  .service-card p{color:var(--muted);font-size:.94rem}
+
+  /* ============ برامج الموهوبين ============ */
+  .gifted{position:relative;border-radius:calc(var(--radius) + 6px);overflow:hidden;
+    background:linear-gradient(135deg,#12276b,#0b1c4a 55%,#062b3a);
+    color:#eaf1fc;padding:clamp(32px,5vw,56px);box-shadow:var(--shadow-lg)}
+  .gifted .orb{opacity:.28}
+  .gifted-inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .gifted h2{font-size:clamp(1.6rem,3.4vw,2.4rem);font-weight:900;margin:16px 0 14px;color:#fff}
+  .gifted p.intro{color:#c6d4ee;font-size:1.06rem;margin-bottom:8px}
+  .gifted .kicker{background:rgba(255,255,255,.12);color:#ffe08a;border-color:rgba(255,224,138,.35)}
+  .steps-list{display:grid;gap:12px}
+  .steps-list li{display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:14px 16px;font-weight:600;color:#e7eefb}
+  .steps-list .n{width:30px;height:30px;flex:0 0 auto;border-radius:9px;display:grid;place-items:center;
+    font-weight:800;font-size:.9rem;background:var(--grad-gold);color:#3a2a03}
+
+  /* ============ المشاريع ============ */
+  .filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px}
+  .filter{padding:9px 16px;border-radius:999px;border:1px solid var(--card-border);background:var(--surface);
+    color:var(--text-soft);font-weight:700;font-size:.9rem;cursor:pointer;font-family:inherit;
+    transition:background .2s, color .2s, border-color .2s, transform .15s}
+  .filter:hover{transform:translateY(-2px);border-color:var(--primary)}
+  .filter.active{background:var(--grad-brand);color:#fff;border-color:transparent;box-shadow:var(--shadow-sm);text-shadow:0 1px 2px rgba(0,0,0,.3)}
+
+  .projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .project-card{background:var(--surface);border:1px solid var(--card-border);border-radius:var(--radius);
+    padding:24px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:14px;
+    transition:transform .25s, box-shadow .25s, border-color .25s;position:relative;overflow:hidden}
+  .project-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);
+    border-color:color-mix(in srgb,var(--primary) 40%,var(--card-border))}
+  .project-top{display:flex;align-items:center;gap:14px}
+  .project-ic{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;font-size:27px;color:#fff;flex:0 0 auto}
+  .project-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .tag{font-size:.72rem;font-weight:700;padding:4px 10px;border-radius:999px;
+    background:var(--bg-soft);color:var(--text-soft);border:1px solid var(--card-border)}
+  .tag.year{color:var(--gold);background:color-mix(in srgb,var(--gold) 12%,transparent);
+    border-color:color-mix(in srgb,var(--gold) 26%,transparent)}
+  .project-card h3{font-size:1.18rem}
+  .project-card .desc{color:var(--muted);font-size:.95rem;flex:1}
+  .tech-chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-size:.72rem;font-weight:600;padding:4px 9px;border-radius:8px;
+    background:color-mix(in srgb,var(--primary) 9%,transparent);color:var(--primary);
+    border:1px solid color-mix(in srgb,var(--primary) 20%,transparent)}
+  .project-card .details-btn{margin-top:4px;align-self:flex-start}
+
+  /* ============ سحابة التقنيات ============ */
+  .tech-cloud{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:920px;margin-inline:auto}
+  .tech-tag{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:14px;
+    background:var(--surface);border:1px solid var(--card-border);font-weight:700;color:var(--text-soft);
+    box-shadow:var(--shadow-sm);transition:transform .18s, color .2s, border-color .2s}
+  .tech-tag:hover{transform:translateY(-3px) scale(1.03);color:var(--primary);border-color:var(--primary)}
+  .tech-tag .dot{width:9px;height:9px;border-radius:50%;background:var(--grad-brand)}
+
+  /* ============ المنهجية ============ */
+  .method-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .method-card{background:var(--surface);border:1px solid var(--card-border);border-radius:var(--radius);
+    padding:24px 20px;box-shadow:var(--shadow-sm);position:relative;transition:transform .2s, box-shadow .2s}
+  .method-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .method-card .n{position:absolute;top:16px;inset-inline-end:18px;font-size:2.4rem;font-weight:900;
+    line-height:1;color:color-mix(in srgb,var(--primary) 16%,transparent)}
+  .method-card .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
+    color:#fff;font-size:22px;margin-bottom:14px;background:var(--grad-brand)}
+  .method-card h3{font-size:1.02rem}
+
+  /* ============ الشهادة ============ */
+  .cert-wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .cert-card{position:relative;border-radius:calc(var(--radius) + 4px);padding:34px;overflow:hidden;
+    background:var(--surface);border:1px solid var(--card-border);box-shadow:var(--shadow)}
+  .cert-card .seal{position:absolute;top:-30px;inset-inline-start:-30px;width:150px;height:150px;border-radius:50%;
+    background:radial-gradient(circle,var(--gold-2),transparent 70%);opacity:.35}
+  .cert-badge{display:inline-flex;align-items:center;gap:12px;padding:8px 8px 8px 18px;border-radius:999px;
+    background:var(--grad-gold);color:#3a2a03;font-weight:800;box-shadow:var(--shadow-sm);margin-bottom:20px}
+  .cert-badge .ic{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.4);display:grid;place-items:center;font-size:18px}
+  .cert-card h3{font-size:1.5rem;margin-bottom:10px}
+  .cert-card .field{display:inline-flex;align-items:center;gap:10px;margin-top:6px;padding:14px 20px;border-radius:14px;
+    border:1px dashed color-mix(in srgb,var(--gold) 45%,var(--card-border));background:color-mix(in srgb,var(--gold) 8%,transparent);
+    font-weight:800;color:var(--text);font-size:1.05rem}
+  .cert-text h2{font-size:clamp(1.6rem,3.2vw,2.3rem);font-weight:900;margin:16px 0 14px}
+  .cert-text p{color:var(--text-soft);font-size:1.06rem;margin-bottom:22px}
+  .cert-note{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:.88rem;margin-top:16px}
+
+  /* ============ التواصل ============ */
+  .contact{position:relative;border-radius:calc(var(--radius) + 6px);overflow:hidden;
+    background:var(--grad-brand);color:#fff;padding:clamp(40px,6vw,72px);text-align:center;box-shadow:var(--shadow-lg)}
+  .contact::after{content:"";position:absolute;inset:0;
+    background:radial-gradient(circle at 20% 20%,rgba(255,255,255,.18),transparent 40%),
+               radial-gradient(circle at 80% 90%,rgba(0,0,0,.18),transparent 45%)}
+  .contact-inner{position:relative;z-index:1;max-width:760px;margin-inline:auto}
+  .contact h2{font-size:clamp(1.7rem,3.6vw,2.6rem);font-weight:900;color:#fff;margin-bottom:14px;text-shadow:0 1px 3px rgba(0,0,0,.28)}
+  .contact p{color:#fff;font-size:1.1rem;margin-bottom:30px;text-shadow:0 1px 2px rgba(0,0,0,.3)}
+  .contact-cta{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+  .contact .btn-wa{background:#fff;color:#0b3d2e}
+  .contact .btn-light{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(6px)}
+  .contact .btn-light:hover{background:rgba(255,255,255,.24)}
+
+  /* ============ التذييل ============ */
+  footer.foot{background:var(--surface);border-top:1px solid var(--card-border);padding:44px 0 34px;margin-top:20px}
+  .foot-grid{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+  .foot-brand{display:flex;align-items:center;gap:12px}
+  .foot-brand .logo{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:#fff;
+    background:var(--grad-brand);font-weight:900}
+  .foot-brand strong{font-size:1.05rem;display:block}
+  .foot-brand span{color:var(--muted);font-size:.88rem}
+  .foot-tags{color:var(--muted);font-size:.9rem;margin-top:18px;text-align:center;width:100%;border-top:1px solid var(--card-border);padding-top:18px}
+
+  /* ============ العناصر العائمة ============ */
+  .floaties{position:fixed;bottom:22px;inset-inline-end:22px;z-index:90;display:flex;flex-direction:column;gap:12px}
+  .fab{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;cursor:pointer;border:none;
+    box-shadow:var(--shadow-lg);transition:transform .2s;font-family:inherit}
+  .fab:hover{transform:translateY(-4px) scale(1.05)}
+  .fab-wa{background:var(--wa);color:#fff;font-size:30px;position:relative}
+  .fab-wa::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--wa);
+    animation:ping 2.4s cubic-bezier(0,0,.2,1) infinite}
+  .fab-top{background:var(--surface);color:var(--text);border:1px solid var(--card-border);font-size:22px;
+    opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .25s, transform .25s}
+  .fab-top.show{opacity:1;pointer-events:auto;transform:none}
+  @keyframes ping{75%,100%{transform:scale(1.7);opacity:0}}
+
+  /* ============ Modal ============ */
+  .modal{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:20px;
+    background:rgba(6,10,22,.65);backdrop-filter:blur(6px);
+    opacity:0;pointer-events:none;visibility:hidden;transition:opacity .25s, visibility .25s}
+  .modal.open{opacity:1;pointer-events:auto;visibility:visible}
+  .modal-box{background:var(--surface);border:1px solid var(--card-border);border-radius:calc(var(--radius) + 4px);
+    max-width:640px;width:100%;max-height:88vh;overflow:auto;box-shadow:var(--shadow-lg);
+    transform:translateY(16px) scale(.98);transition:transform .28s;position:relative}
+  .modal.open .modal-box{transform:none}
+  .modal-header{padding:26px 26px 18px;display:flex;gap:16px;align-items:flex-start;
+    border-bottom:1px solid var(--card-border);position:sticky;top:0;background:var(--surface);z-index:1}
+  .modal-header .ic{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;font-size:28px;color:#fff;flex:0 0 auto}
+  .modal-header h3{font-size:1.35rem;margin-bottom:6px}
+  .modal-close{position:absolute;top:18px;inset-inline-end:18px;width:38px;height:38px;border-radius:11px;
+    border:1px solid var(--card-border);background:var(--surface);color:var(--text);cursor:pointer;display:grid;place-items:center;font-size:20px;z-index:4}
+  .modal-close:hover{border-color:var(--primary);color:var(--primary)}
+  .modal-body{padding:22px 26px 28px}
+  .modal-body .promo{font-style:italic;color:var(--primary);font-weight:700;font-size:1.05rem;
+    padding:14px 18px;border-radius:12px;background:color-mix(in srgb,var(--primary) 8%,transparent);
+    border-inline-start:3px solid var(--primary);margin-bottom:22px}
+  .modal-body h4{font-size:.95rem;color:var(--muted);margin:20px 0 12px;font-weight:700}
+  .feat-list{display:grid;gap:10px}
+  .feat-list li{display:flex;gap:10px;align-items:flex-start;color:var(--text-soft);font-weight:600;font-size:.97rem}
+  .feat-list .icon{color:var(--emerald);font-size:19px;margin-top:3px;flex:0 0 auto}
+  .modal-tech{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+
+  /* ============ أنميشن الكشف عند التمرير ============ */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.is-visible{opacity:1;transform:none}
+  .reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}
+  .reveal.d3{transition-delay:.24s}.reveal.d4{transition-delay:.32s}
+
+  /* ============ الاستجابة ============ */
+  @media (max-width:1024px){
+    .hero-grid{grid-template-columns:1fr;gap:36px}
+    .hero-visual{order:-1;min-height:280px}
+    .trust-grid,.cards-grid,.method-grid{grid-template-columns:repeat(2,1fr)}
+    .projects-grid{grid-template-columns:repeat(2,1fr)}
+    .about-grid,.gifted-inner,.cert-wrap{grid-template-columns:1fr;gap:30px}
+    .about-aside{position:static}
+    /* طيّ التنقل إلى الهامبرغر يبدأ من نفس نقطة انهيار التخطيط لتفادي ازدحام الشريط */
+    .nav-links{display:none}
+    .nav .desktop-cta{display:none}
+    .hamburger{display:grid}
+    .float-card{display:none}
+  }
+  @media (max-width:680px){
+    .trust-grid,.cards-grid,.method-grid,.projects-grid,.cards-grid.cols-2{grid-template-columns:1fr}
+    .brand small{display:none}
+    .section{padding:52px 0}
+    .foot-grid{flex-direction:column;text-align:center}
+    .hero-cta .btn{flex:1 1 auto}
+    .filter{min-height:44px;padding-block:11px}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+      transition-duration:.001ms !important;scroll-behavior:auto !important}
+    .reveal{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- شريط التقدم -->
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- ============ شريط التنقل ============ -->
+<header class="nav">
+  <div class="container">
+    <a href="#home" class="brand" aria-label="باسم محمد الحجري — الرئيسية">
+      <span class="logo">ب</span>
+      <span>باسم الحجري<small>معلم حاسب · مطور برمجيات</small></span>
+    </a>
+    <nav class="nav-links" aria-label="التنقل الرئيسي">
+      <a href="#home">الرئيسية</a>
+      <a href="#about">عني</a>
+      <a href="#services">الخدمات</a>
+      <a href="#projects">المشاريع</a>
+      <a href="#gifted">التدريب</a>
+      <a href="#certificate">الشهادة</a>
+      <a href="#contact">التواصل</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="iconbtn theme-toggle" id="themeToggle" aria-label="تبديل الوضع الليلي والنهاري">
+        <svg class="icon sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+      <a href="https://wa.me/966558048004" target="_blank" rel="noopener" class="btn btn-wa desktop-cta">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01zM12.05 20.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+        تواصل واتساب
+      </a>
+      <button class="iconbtn hamburger" id="hamburger" aria-label="القائمة" aria-expanded="false" aria-controls="mobileMenu">
+        <svg class="icon" viewBox="0 0 24 24" id="hamIcon"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- قائمة الجوال -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">الرئيسية</a>
+  <a href="#about">عني</a>
+  <a href="#services">الخدمات</a>
+  <a href="#projects">المشاريع</a>
+  <a href="#gifted">التدريب</a>
+  <a href="#certificate">الشهادة</a>
+  <a href="#contact">التواصل</a>
+  <a href="https://wa.me/966558048004" target="_blank" rel="noopener" class="btn btn-wa">تواصل عبر واتساب</a>
+</div>
+
+<main>
+  <!-- ============ Hero ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="kicker reveal"><svg class="icon" viewBox="0 0 24 24"><path d="M9.9 15.5A2 2 0 0 0 8.5 14L2.4 12.5a.5.5 0 0 1 0-1L8.5 10A2 2 0 0 0 9.9 8.5L11.5 2.4a.5.5 0 0 1 1 0L14 8.5A2 2 0 0 0 15.5 10l6.1 1.5a.5.5 0 0 1 0 1L15.5 14a2 2 0 0 0-1.4 1.4l-1.6 6.1a.5.5 0 0 1-1 0z"/></svg> من الفكرة إلى منتج يعمل</span>
+        <p class="name-line reveal d1">باسم محمد الحجري</p>
+        <h1 class="reveal d1">معلم حاسب ومطور برمجيات <span class="grad-text">يصنع حلولًا تعليمية وتجارية بالذكاء الاصطناعي</span></h1>
+        <p class="lead reveal d2">أجمع بين خبرة الميدان التعليمي وتطوير الأنظمة الحديثة لبناء تطبيقات ومواقع ومنصات تساعد المدارس والمعاهد وأصحاب الأعمال على التحول الرقمي من الفكرة حتى التشغيل.</p>
+        <div class="hero-cta reveal d3">
+          <a href="https://wa.me/966558048004" target="_blank" rel="noopener" class="btn btn-wa">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01zM12.05 20.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+            تواصل واتساب
+          </a>
+          <a href="#projects" class="btn btn-primary">استعرض أعمالي
+            <svg class="icon" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+          </a>
+          <a href="#certificate" class="btn btn-outline">شهادة العمل الحر</a>
+        </div>
+        <div class="badges reveal d4">
+          <span class="badge"><svg class="icon" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> معلم حاسب منذ 1424هـ</span>
+          <span class="badge"><svg class="icon" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg> مطور مواقع وتطبيقات</span>
+          <span class="badge"><svg class="icon" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg> مدرب ذكاء اصطناعي</span>
+          <span class="badge"><svg class="icon" viewBox="0 0 24 24"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg> شهادة عمل حر موثقة</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal d2">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <div>
+              <div class="mono">ب.ح</div>
+              <span>باسم الحجري</span>
+            </div>
+          </div>
+        </div>
+        <div class="float-card fc-1">
+          <span class="ic" style="background:var(--grad-brand)"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg></span>
+          <span>لوحات تحكم<small>Dashboards</small></span>
+        </div>
+        <div class="float-card fc-2">
+          <span class="ic" style="background:var(--wa)"><svg class="icon" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></span>
+          <span>أتمتة واتساب<small>WhatsApp AI</small></span>
+        </div>
+        <div class="float-card fc-3">
+          <span class="ic" style="background:var(--grad-gold)"><svg class="icon" viewBox="0 0 24 24"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></span>
+          <span>عمل حر موثّق<small>Verified</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ شريط الثقة ============ -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-card reveal">
+          <span class="ic" style="background:var(--grad-brand)"><svg class="icon" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+          <p>خبرة تعليمية طويلة في المرحلة الثانوية</p>
+        </div>
+        <div class="trust-card reveal d1">
+          <span class="ic" style="background:linear-gradient(135deg,#0ea5e9,#2563eb)"><svg class="icon" viewBox="0 0 24 24"><path d="m12.8 2.2-8.6 3.9a1 1 0 0 0 0 1.8l8.6 3.9a2 2 0 0 0 1.6 0l8.6-3.9a1 1 0 0 0 0-1.8L14.4 2.2a2 2 0 0 0-1.6 0Z"/><path d="m22 17.6-9.2 4.2a2 2 0 0 1-1.6 0L2 17.6M22 12.6l-9.2 4.2a2 2 0 0 1-1.6 0L2 12.6"/></svg></span>
+          <p>بناء أنظمة تعليمية وتجارية تعمل على أرض الواقع</p>
+        </div>
+        <div class="trust-card reveal d2">
+          <span class="ic" style="background:linear-gradient(135deg,#8b5cf6,#2563eb)"><svg class="icon" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></span>
+          <p>استخدام الذكاء الاصطناعي في البرمجة والتدريب</p>
+        </div>
+        <div class="trust-card reveal d3">
+          <span class="ic" style="background:var(--grad-gold)"><svg class="icon" viewBox="0 0 24 24"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></span>
+          <p>شهادة عمل حر في برمجة وتطوير المواقع الإلكترونية</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ من أنا ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="kicker reveal">من أنا</span>
+          <h2 class="reveal d1" style="font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:900;margin:16px 0 18px">تعليم يلتقي بالبرمجة والذكاء الاصطناعي</h2>
+          <p class="reveal d1">أنا باسم محمد الحجري، معلم حاسب ومطور برمجيات. عملت في التعليم منذ عام 1424هـ، واهتممت بتحويل الاحتياج التعليمي والإداري إلى حلول رقمية عملية. أطور أنظمة ويب وتطبيقات ولوحات تحكم، وأستخدم أدوات الذكاء الاصطناعي لتسريع بناء المنتجات وتحسين تجربة المستخدم.</p>
+          <p class="reveal d2">أؤمن أن الطالب الموهوب يحتاج أن يرى التقنية كمشروع حقيقي، لا كمعلومة نظرية فقط.</p>
+          <ul class="about-list reveal d2">
+            <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> خبرة تعليمية في المرحلة الثانوية</li>
+            <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> تطوير برامج تعليمية وإدارية وتجارية</li>
+            <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> بناء حلول واتساب وأتمتة</li>
+            <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> تدريب الطلاب على بناء مشاريع من الصفر</li>
+            <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> نشر وتشغيل واختبار التطبيقات</li>
+          </ul>
+        </div>
+        <aside class="about-aside reveal d2">
+          <h3>في الميدان منذ</h3>
+          <div class="since">1424هـ</div>
+          <p style="color:var(--muted);margin-top:6px">سنوات من التعليم والتطوير وبناء الحلول الرقمية.</p>
+          <div class="mini">
+            <div><svg class="icon" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> تعليم المرحلة الثانوية</div>
+            <div><svg class="icon" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg> تطوير أنظمة ومنصات كاملة</div>
+            <div><svg class="icon" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg> ذكاء اصطناعي وأتمتة</div>
+            <div><svg class="icon" viewBox="0 0 24 24"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg> عمل حر موثّق</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ الخدمات ============ -->
+  <section class="section" id="services" style="background:var(--bg-soft)">
+    <div class="container">
+      <div class="section-head center">
+        <span class="kicker reveal">ما الذي أقدمه؟</span>
+        <h2 class="reveal d1">خدمات تقنية <span class="grad-text">من التدريب إلى التشغيل</span></h2>
+        <p class="reveal d2">حلول عملية تغطي الفكرة، البناء، الربط، والنشر — للمدارس والمعاهد وأصحاب الأعمال.</p>
+      </div>
+      <div class="cards-grid" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ برامج الموهوبين ============ -->
+  <section class="section" id="gifted">
+    <div class="container">
+      <div class="gifted reveal">
+        <div class="hero-bg" aria-hidden="true"><span class="orb o2" style="inset-inline-end:-80px;inset-inline-start:auto;top:-90px"></span></div>
+        <div class="gifted-inner">
+          <div>
+            <span class="kicker">برامج ودورات للموهوبين</span>
+            <h2>من الفكرة إلى تطبيق يعمل: برامج تدريبية للطلاب الموهوبين</h2>
+            <p class="intro">أستطيع تقديم دورات تطبيقية تمكّن الطالب من بناء مشروع حقيقي باستخدام الذكاء الاصطناعي، من اختيار الفكرة حتى عرضها باحتراف.</p>
+          </div>
+          <ul class="steps-list">
+            <li><span class="n">1</span> اختيار فكرة قابلة للتنفيذ</li>
+            <li><span class="n">2</span> تصميم الواجهة وتجربة المستخدم</li>
+            <li><span class="n">3</span> بناء موقع أو تطبيق</li>
+            <li><span class="n">4</span> استخدام الذكاء الاصطناعي في البرمجة والتحليل والتصميم</li>
+            <li><span class="n">5</span> ربط قاعدة البيانات</li>
+            <li><span class="n">6</span> اختبار المشروع</li>
+            <li><span class="n">7</span> نشره على الويب أو رفعه للمتجر</li>
+            <li><span class="n">8</span> عرض المشروع بطريقة احترافية</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ المشاريع ============ -->
+  <section class="section" id="projects" style="background:var(--bg-soft)">
+    <div class="container">
+      <div class="section-head center">
+        <span class="kicker reveal">المشاريع والأعمال</span>
+        <h2 class="reveal d1">أنظمة حقيقية <span class="grad-text">في قطاعات متنوّعة</span></h2>
+        <p class="reveal d2">تعليم، مطاعم، صالونات، عقار، طيران خاص، بقالات، واتساب، واختبارات — مشاريع تعمل فعليًا.</p>
+      </div>
+      <div class="filters reveal" id="filters" role="group" aria-label="تصفية المشاريع"></div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ التقنيات ============ -->
+  <section class="section" id="tech">
+    <div class="container">
+      <div class="section-head center">
+        <span class="kicker reveal">التقنيات التي أعمل بها</span>
+        <h2 class="reveal d1">مكدّس تقني <span class="grad-text">حديث ومتكامل</span></h2>
+      </div>
+      <div class="tech-cloud reveal d1" id="techCloud"></div>
+    </div>
+  </section>
+
+  <!-- ============ المنهجية ============ -->
+  <section class="section" id="method" style="background:var(--bg-soft)">
+    <div class="container">
+      <div class="section-head center">
+        <span class="kicker reveal">منهجيتي في بناء البرامج</span>
+        <h2 class="reveal d1">من فهم المشكلة <span class="grad-text">إلى التشغيل والتدريب</span></h2>
+      </div>
+      <div class="method-grid" id="methodGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ الشهادة ============ -->
+  <section class="section" id="certificate">
+    <div class="container">
+      <div class="cert-wrap">
+        <div class="cert-text">
+          <span class="kicker k-gold reveal">شهادة عمل حر موثقة</span>
+          <h2 class="reveal d1">توثيق يدعم <span class="grad-text">احترافية الخدمة</span></h2>
+          <p class="reveal d1">أحمل شهادة عمل حر في مجال برمجة وتطوير المواقع الإلكترونية، مما يدعم تقديم خدمات تطوير المواقع والتطبيقات والأنظمة الرقمية باحترافية.</p>
+          <a href="https://wa.me/966558048004?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%20%D8%B9%D9%84%D9%89%20%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D9%84%D8%AD%D8%B1" target="_blank" rel="noopener" class="btn btn-wa reveal d2">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01zM12.05 20.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+            طلب نسخة الشهادة عبر واتساب
+          </a>
+          <div class="cert-note"><svg class="icon" viewBox="0 0 24 24" style="font-size:18px"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> حفاظًا على الخصوصية، لا تُعرض بيانات الهوية أو رموز التوثيق في الصفحة العامة.</div>
+        </div>
+        <div class="cert-card reveal d1">
+          <span class="seal" aria-hidden="true"></span>
+          <span class="cert-badge"><span class="ic"><svg class="icon" viewBox="0 0 24 24"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></span> شهادة عمل حر موثقة</span>
+          <h3>باسم محمد الحجري</h3>
+          <p style="color:var(--muted);margin-bottom:8px">مجال النشاط:</p>
+          <span class="field"><svg class="icon" viewBox="0 0 24 24" style="font-size:20px;color:var(--gold)"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg> برمجة وتطوير المواقع الإلكترونية</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ التواصل ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact reveal">
+        <div class="contact-inner">
+          <h2>لديك فكرة أو تحتاج برنامجًا؟ لنحوّلها إلى منتج يعمل.</h2>
+          <p>تواصل مباشرة لمناقشة مشروعك أو دورة تدريبية للطلاب الموهوبين — الرد سريع عبر واتساب.</p>
+          <div class="contact-cta">
+            <a href="https://wa.me/966558048004?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0%20%D8%A8%D8%A7%D8%B3%D9%85%D8%8C%20%D8%A7%D8%B7%D9%84%D8%B9%D8%AA%20%D8%B9%D9%84%D9%89%20%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%83%20%D9%88%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D8%AD%D9%88%D9%84%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%2F%D8%AF%D9%88%D8%B1%D8%A9" target="_blank" rel="noopener" class="btn btn-wa">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01zM12.05 20.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+              تواصل عبر واتساب
+            </a>
+            <a href="https://wa.me/966558048004?text=%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%B7%D9%84%D8%A8%20%D8%B9%D8%B1%D8%B6%20%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9" target="_blank" rel="noopener" class="btn btn-light">اطلب عرض مشروع</a>
+            <a href="https://wa.me/966558048004?text=%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%AF%D9%88%D8%B1%D8%A9%20%D9%84%D9%84%D8%B7%D9%84%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D9%88%D9%87%D9%88%D8%A8%D9%8A%D9%86" target="_blank" rel="noopener" class="btn btn-light">ناقش دورة للطلاب الموهوبين</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ التذييل ============ -->
+<footer class="foot">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="logo">ب</span>
+        <div>
+          <strong>باسم محمد الحجري</strong>
+          <span>معلم حاسب ومطور برمجيات</span>
+        </div>
+      </div>
+      <a href="https://wa.me/966558048004" target="_blank" rel="noopener" class="btn btn-wa">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01zM12.05 20.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+        تواصل واتساب
+      </a>
+    </div>
+    <p class="foot-tags">تطوير مواقع وتطبيقات · أنظمة تعليمية وتجارية · ذكاء اصطناعي وأتمتة</p>
+  </div>
+</footer>
+
+<!-- العناصر العائمة -->
+<div class="floaties">
+  <button class="fab fab-top" id="toTop" aria-label="العودة للأعلى">
+    <svg class="icon" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+  </button>
+  <a class="fab fab-wa" href="https://wa.me/966558048004" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب">
+    <svg class="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01zM12.05 20.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+  </a>
+</div>
+
+<!-- Modal تفاصيل المشروع -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="إغلاق">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="modal-header">
+      <span class="ic" id="modalIcon"></span>
+      <div>
+        <div class="project-meta" id="modalMeta"></div>
+        <h3 id="modalTitle"></h3>
+      </div>
+    </div>
+    <div class="modal-body">
+      <p class="promo" id="modalPromo"></p>
+      <p id="modalDesc" style="color:var(--text-soft)"></p>
+      <h4>أبرز المميزات</h4>
+      <ul class="feat-list" id="modalFeatures"></ul>
+      <h4 id="modalTechHead">التقنيات المستخدمة</h4>
+      <div class="modal-tech" id="modalTech"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   البيانات — المشاريع في مصفوفة منفصلة قابلة للتعديل بسهولة
+   ============================================================ */
+const ICONS = {
+  dashboard:'<path d="M3 3h7v9H3zM14 3h7v5h-7zM14 12h7v9h-7zM3 16h7v5H3z"/>',
+  clipboard:'<rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/>',
+  utensils:'<path d="M3 2v7a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V2M6 2v20M21 15V2a5 5 0 0 0-5 5v6a2 2 0 0 0 2 2h3Zm0 0v7"/>',
+  bot:'<path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2M20 14h2M15 13v2M9 13v2"/>',
+  store:'<path d="m2 7 4.4-4.4A2 2 0 0 1 7.8 2h8.3a2 2 0 0 1 1.4.6L22 7M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8M2 7h20M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/>',
+  building:'<rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M16 6h.01M12 6h.01M12 10h.01M12 14h.01M16 10h.01M16 14h.01M8 10h.01M8 14h.01"/>',
+  scissors:'<circle cx="6" cy="6" r="3"/><path d="M8.1 8.1 12 12M20 4 8.1 15.9"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/>',
+  award:'<circle cx="12" cy="8" r="6"/><path d="M15.5 12.9 17 21l-5-3-5 3 1.5-8.1"/>',
+  plane:'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2a1 1 0 0 0-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',
+  cart:'<circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2 2h2l2.6 12.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6L23 6H5"/>',
+  brain:'<rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/>',
+  code:'<path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/>',
+  server:'<rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/>',
+  chat:'<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>',
+  calendar:'<path d="M8 2v4M16 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 10h18m-9 6 2 2 4-4"/>',
+  database:'<ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5M3 12a9 3 0 0 0 18 0"/>',
+  rocket:'<path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2.1-.1-2.9a2.2 2.2 0 0 0-2.9-.1zM12 15l-3-3a22 22 0 0 1 2-4A12.9 12.9 0 0 1 22 2c0 2.7-.8 7.5-6 11a22 22 0 0 1-4 2z"/><path d="M9 12H4s.6-3 2-4c1.6-1.1 5 0 5 0M12 15v5s3-.6 4-2c1.1-1.6 0-5 0-5"/>',
+  check:'<path d="M20 6 9 17l-5-5"/>',
+  cap:'<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>',
+  target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+  layout:'<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
+  link:'<path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/>',
+  wrench:'<path d="M14.7 6.3a4 4 0 0 0-5.6 5.2L3 17.6 6.4 21l6.1-6.1a4 4 0 0 0 5.2-5.6l-2.7 2.7-2.3-2.3z"/>'
+};
+function svg(name,extra){return `<svg class="icon${extra?' '+extra:''}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${ICONS[name]||''}</svg>`}
+
+/* الخدمات */
+const SERVICES = [
+  {icon:'brain', color:'linear-gradient(135deg,#8b5cf6,#2563eb)', title:'دورات الذكاء الاصطناعي', desc:'للطلاب والمعلمين — تطبيق عملي لأدوات الذكاء الاصطناعي في التعلم والإنتاج.'},
+  {icon:'code', color:'linear-gradient(135deg,#2563eb,#0ea5e9)', title:'تدريب بناء المواقع والتطبيقات', desc:'تدريب عملي لبناء مواقع وتطبيقات من الصفر حتى التشغيل.'},
+  {icon:'layout', color:'linear-gradient(135deg,#0ea5e9,#10b981)', title:'تطبيقات ولوحات تحكم', desc:'بناء تطبيقات ويب ولوحات تحكم مرنة وسريعة الاستخدام.'},
+  {icon:'server', color:'linear-gradient(135deg,#6366f1,#8b5cf6)', title:'أنظمة SaaS للمنشآت', desc:'تطوير أنظمة اشتراك متعددة المستأجرين قابلة للتوسّع.'},
+  {icon:'chat', color:'linear-gradient(135deg,#25d366,#059669)', title:'أتمتة واتساب والردود الذكية', desc:'مساعد ذكي يرد ويبيع ويحجز ويحصّل داخل واتساب.'},
+  {icon:'calendar', color:'linear-gradient(135deg,#f59e0b,#d4a933)', title:'أنظمة حضور وحجوزات ومبيعات', desc:'حضور، اختبارات، حجوزات، مبيعات، ومتابعة في نظام واحد.'},
+  {icon:'database', color:'linear-gradient(135deg,#0891b2,#0ea5e9)', title:'قواعد بيانات وصلاحيات وتقارير', desc:'ربط قواعد البيانات، الصلاحيات، التقارير، والمدفوعات.'},
+  {icon:'rocket', color:'linear-gradient(135deg,#ef4444,#f59e0b)', title:'اختبار ونشر التطبيقات', desc:'اختبار التطبيقات ونشرها على المتاجر أو المواقع.'}
+];
+
+/* التقنيات */
+const TECH = ['Next.js','React','TypeScript','Laravel','Flutter','Supabase','PostgreSQL','Firebase','REST APIs','WhatsApp Automation','AI Tools','OpenAI / Claude','PWA','ZATCA','POS Systems','Dashboards','Role-Based Access','Reports & Analytics'];
+
+/* المنهجية */
+const METHOD = [
+  {icon:'target', t:'فهم المشكلة والاحتياج'},
+  {icon:'layout', t:'تصميم تجربة المستخدم'},
+  {icon:'rocket', t:'بناء نموذج أولي سريع'},
+  {icon:'database', t:'قاعدة البيانات والصلاحيات'},
+  {icon:'dashboard', t:'بناء الواجهات ولوحات التحكم'},
+  {icon:'link', t:'ربط الواتساب والدفع والأجهزة'},
+  {icon:'wrench', t:'الاختبار والتحسين'},
+  {icon:'check', t:'النشر والتشغيل والتدريب'}
+];
+
+/* المشاريع */
+const PROJECTS = [
+  {
+    id:'attendance', name:'نظام إدارة الحضور والغياب وشؤون الطلاب', sector:'التعليم والمدارس', year:'',
+    cats:['تعليمي','SaaS','واتساب وأتمتة'], icon:'cap', color:'linear-gradient(135deg,#2563eb,#0ea5e9)',
+    desc:'منظومة مدرسية متكاملة لإدارة حضور وغياب الطلاب وشؤونهم اليومية، تربط المعلمين والإدارة والمشرفين والمرشد وأولياء الأمور.',
+    promo:'من الحصة الأولى إلى تقرير الإدارة: حضور الطلاب أصبح منظومة رقمية متصلة.',
+    features:['رصد الحضور والغياب لكل حصة وشعبة','واجهة خاصة لكل معلم','مؤشرات مباشرة للإدارة عن الحضور والغياب والتأخر والاستئذان','تسجيل الملاحظات وتحويل الحالات للمشرف أو المرشد','إشعارات واتساب لأولياء الأمور ومتابعة ولي الأمر لحالة ابنه','إدارة الإشراف اليومي والمناوبات','تقارير وإحصاءات تدعم اتخاذ القرار','صلاحيات متعددة حسب الدور وربط أجهزة البصمة ZKTeco'],
+    tech:['Next.js','TypeScript','Supabase/PostgreSQL','PWA','WhatsApp','ZKTeco']
+  },
+  {
+    id:'smartsapp', name:'SmartsApp — الاختبار الذكي', sector:'التعليم والاختبارات', year:'2017',
+    cats:['تعليمي'], icon:'clipboard', color:'linear-gradient(135deg,#6366f1,#2563eb)',
+    desc:'نظام اختبار ذكي يعمل في وزارة الدفاع بالطائف وبعض المعاهد، لإدارة الاختبارات رقميًا بما يساعد على التنظيم وسرعة الإنجاز وتقليل العمل الورقي.',
+    promo:'اختبارات أذكى، تنظيم أسرع، ونتائج أوضح.',
+    features:['إدارة الاختبارات رقميًا','تنظيم المتقدمين أو الطلاب','تقليل الجهد اليدوي','مناسب للمعاهد والجهات التدريبية','تجربة عملية مستخدمة في جهات حقيقية'],
+    tech:[]
+  },
+  {
+    id:'fawry', name:'Fawry Delivery', sector:'توصيل الطعام', year:'2020',
+    cats:['تجاري','تطبيقات جوال'], icon:'utensils', color:'linear-gradient(135deg,#f59e0b,#ef4444)',
+    desc:'تطبيق توصيل طعام يسهّل طلبات المطاعم والتوصيل، مع تجربة استخدام مناسبة للعملاء ومزودي الخدمة.',
+    promo:'حل توصيل طعام يقرّب المطعم من العميل.',
+    features:['عرض المطاعم والطلبات','تجربة طلب طعام سهلة','دعم التوصيل ومتابعة الطلب','مناسب للمطاعم والعملاء','مشروع تطبيقي مكتمل'],
+    tech:[]
+  },
+  {
+    id:'tajer', name:'تاجر — مساعد واتساب ذكي للأعمال', sector:'واتساب · أتمتة · ذكاء اصطناعي', year:'',
+    cats:['واتساب وأتمتة','ذكاء اصطناعي','تجاري'], icon:'bot', color:'linear-gradient(135deg,#25d366,#059669)',
+    desc:'منصة تحوّل رقم واتساب المنشأة إلى مساعد مبيعات وخدمة عملاء ذكي: يدير الردود والحجوزات والطلبات والدفع والفواتير والولاء والتسليم للموظف عند الحاجة.',
+    promo:'حوّل واتساب منشأتك إلى مساعد أعمال لا ينام.',
+    features:['رد ذكي عربي/سعودي نصًا وصوتًا','حجز وبيع وتحصيل داخل واتساب','دعم الكتالوج والسلة والطلبات','فواتير ZATCA ودفع Moyasar','دعم الصالون والعيادة والمطعم والتجزئة والعقار','حملات وتسويق آمن مع ساعات هدوء وسقف تكرار','قواعد أمان تمنع الهلوسة والقرارات المالية الخاطئة'],
+    tech:['TypeScript','Node.js','Supabase/Postgres','Wasender','Claude/OpenAI STT/TTS','Moyasar']
+  },
+  {
+    id:'restrun', name:'Restrun / رن — منصة تشغيل مطاعم', sector:'مطاعم · SaaS · POS', year:'',
+    cats:['SaaS','تجاري'], icon:'store', color:'linear-gradient(135deg,#ef4444,#f97316)',
+    desc:'منصة SaaS متكاملة تربط طلبات المطعم من الويب وQR والكاشير وواتساب في نظام واحد: كاشير، شاشة مطبخ، تطبيق سائق، تتبع، تسويق، ولاء، وتقارير.',
+    promo:'من أول الطلب إلى آخر تقرير: مطعمك يعمل على نبض واحد.',
+    features:['محرك طلبات موحد لكل القنوات','POS للكاشير ولوحة طلبات حية','KDS للمطبخ بتذاكر لحظية','QR ordering للطاولات وتتبع مباشر للعميل','تطبيق سائق مع GPS وتسليم OTP','ولاء وكوبونات وحملات واتساب وتقارير ذكية'],
+    tech:['TypeScript','Turborepo','Next.js','NestJS','PostgreSQL/PostGIS','Prisma','Redis','BullMQ','Socket.IO','Tailwind','Docker']
+  },
+  {
+    id:'tiktokreal', name:'TikTok Real — عقار بالفيديو القصير', sector:'عقار · فيديو · Leads', year:'',
+    cats:['تجاري','تطبيقات جوال'], icon:'building', color:'linear-gradient(135deg,#8b5cf6,#ec4899)',
+    desc:'منصة عقارية سعودية تعتمد الفيديو العمودي القصير لاكتشاف العقارات، وتربط المشاهدة بتوليد Leads موثقة للمكاتب العقارية.',
+    promo:'من مشاهدة العقار إلى Lead موثق خلال تمريرة واحدة.',
+    features:['Feed فيديو عمودي بأسلوب Reels','تفاصيل عقار مرخصة وموثقة','تحويل فوري إلى واتساب أو اتصال أو معاينة','قياس قمع التحويل من المشاهدة إلى Lead','تركيز على السوق السعودي والامتثال العقاري','بوابة نشر لا تسمح بالإعلان عند نقص المتطلبات'],
+    tech:['Flutter','Dart','FastAPI','Python','PostgreSQL','SQLAlchemy','Alembic','Redis','Docker']
+  },
+  {
+    id:'salonak', name:'Salonak / صالونك — إدارة الصالونات', sector:'صالونات · حجوزات · POS', year:'',
+    cats:['SaaS','تجاري'], icon:'scissors', color:'linear-gradient(135deg,#ec4899,#8b5cf6)',
+    desc:'منصة SaaS عربية لإدارة الصالونات من الحجز إلى الفاتورة: كاشير، حجوزات، عملاء، كادر، واتساب، وتقارير المالك في تجربة واحدة مناسبة للسوق السعودي.',
+    promo:'صالونك من الحجز إلى الفاتورة، مرتب بالعربي وجاهز للسوق السعودي.',
+    features:['POS مع فواتير VAT وZATCA QR','صفحة حجز عامة لكل صالون','تقويم حجوزات وإعادة جدولة','إدارة العملاء والخدمات والكادر','رسائل واتساب للتأكيد والتذكير والإيصالات','تسجيل دخول وتحقق هاتف و2FA'],
+    tech:['Next.js','React','TypeScript','Supabase','PostgreSQL/RLS','Tailwind','PWA','Zod','Vercel']
+  },
+  {
+    id:'iims', name:'IIMS — نظام إدارة المعاهد الذكي', sector:'معاهد · مراكز تدريب · اختبارات', year:'',
+    cats:['SaaS','تعليمي'], icon:'award', color:'linear-gradient(135deg,#0891b2,#10b981)',
+    desc:'منصة تشغيل متكاملة للمعاهد التدريبية تجمع الإدارة الأكاديمية والاختبارات والشهادات والطلبات والبوابات الذاتية في نظام واحد آمن وثنائي اللغة.',
+    promo:'من إدارة الطالب إلى إصدار الشهادة: تشغيل المعهد في منظومة واحدة.',
+    features:['تعدد معاهد وفروع مع عزل بيانات','لوحة إدارة متقدمة للطلاب والدبلومات والمواد','محرك اختبارات وتصحيح آلي','شهادات PDF مع QR وصفحة تحقق عامة','بوابة طالب وولي أمر عبر OTP','سير عمل للطلبات وموافقات وحجب مالي/خدمي'],
+    tech:['Laravel','PHP','PostgreSQL','Filament','Livewire','Tailwind','Redis/Horizon','Sanctum','Google2FA']
+  },
+  {
+    id:'aeris', name:'Aeris — منصة الطيران الخاص الذكية', sector:'طيران خاص · حجوزات · Marketplace', year:'',
+    cats:['SaaS','تجاري'], icon:'plane', color:'linear-gradient(135deg,#0ea5e9,#6366f1)',
+    desc:'منصة رقمية عربية فاخرة لإدارة دورة الرحلة الخاصة من الطلب إلى الحجز، مع بوابات للعملاء والمشغلين والإدارة، تجمع الشارتر والرحلات الفارغة والولاء.',
+    promo:'Aeris تجعل الطيران الخاص تجربة رقمية راقية، من أول طلب حتى الإقلاع.',
+    features:['طلب Charter ذكي','مقارنة عروض المشغلين','سوق Empty Legs','بوابات منفصلة للعميل والمشغل والإدارة','برنامج ولاء Privilege','تطبيق Flutter للعميل'],
+    tech:['Next.js','React','TypeScript','Supabase/Postgres','Vercel','Zod','Sentry','Resend','Inngest','Flutter']
+  },
+  {
+    id:'alhai', name:'Alhai Platform — إدارة البقالات الذكية', sector:'بقالات · POS · توصيل · B2B', year:'',
+    cats:['SaaS','تجاري','تطبيقات جوال'], icon:'cart', color:'linear-gradient(135deg,#d4a933,#f59e0b)',
+    desc:'منصة Flutter SaaS متكاملة لإدارة محلات البقالة في السعودية: POS يعمل دون اتصال، إدارة مخزون ومبيعات، تطبيقات عملاء وسائقين، وبوابة موزعين B2B.',
+    promo:'من كاونتر الكاشير إلى التوصيل والموزعين: Alhai يحوّل البقالة إلى منصة تشغيل ذكية.',
+    features:['نقطة بيع Offline-first مع مزامنة خلفية','إدارة شاملة للمخزون والمبيعات والعملاء والموظفين','فوترة ZATCA وVAT وتقارير ضريبية','تطبيق عميل وسائق مع تتبع وخرائط وإشعارات','بوابة موزعين B2B للطلبات وعروض الأسعار','ذكاء اصطناعي للتوقعات والتسعير والمخزون'],
+    tech:['Flutter','Dart','Supabase','PostgreSQL','RLS','Realtime','Drift/SQLite','Riverpod','GoRouter','ZATCA','Firebase','Google Maps']
+  }
+];
+
+const FILTERS = ['الكل','تعليمي','تجاري','SaaS','ذكاء اصطناعي','تطبيقات جوال','واتساب وأتمتة'];
+
+/* ============================================================
+   البناء الديناميكي
+   ============================================================ */
+const $ = (s,el=document)=>el.querySelector(s);
+const $$ = (s,el=document)=>[...el.querySelectorAll(s)];
+
+/* الخدمات */
+$('#servicesGrid').innerHTML = SERVICES.map((s,i)=>`
+  <div class="service-card reveal d${(i%4)}">
+    <span class="ic" style="background:${s.color}">${svg(s.icon)}</span>
+    <h3>${s.title}</h3>
+    <p>${s.desc}</p>
+  </div>`).join('');
+
+/* التقنيات */
+$('#techCloud').innerHTML = TECH.map(t=>`<span class="tech-tag"><span class="dot"></span>${t}</span>`).join('');
+
+/* المنهجية */
+$('#methodGrid').innerHTML = METHOD.map((m,i)=>`
+  <div class="method-card reveal d${(i%4)}">
+    <span class="n">${i+1}</span>
+    <span class="ic">${svg(m.icon)}</span>
+    <h3>${m.t}</h3>
+  </div>`).join('');
+
+/* الفلاتر */
+$('#filters').innerHTML = FILTERS.map((f,i)=>
+  `<button class="filter${i===0?' active':''}" data-filter="${f}" aria-pressed="${i===0?'true':'false'}">${f}</button>`).join('');
+
+/* بطاقات المشاريع */
+function renderProjects(filter='الكل'){
+  const list = filter==='الكل' ? PROJECTS : PROJECTS.filter(p=>p.cats.includes(filter));
+  $('#projectsGrid').innerHTML = list.map((p,i)=>{
+    const shownTech = p.tech.slice(0,4);
+    const extra = p.tech.length-shownTech.length;
+    return `
+    <article class="project-card reveal d${(i%3)}">
+      <div class="project-top">
+        <span class="project-ic" style="background:${p.color}">${svg(p.icon)}</span>
+        <div class="project-meta">
+          <span class="tag">${p.sector}</span>
+          ${p.year?`<span class="tag year">${p.year}</span>`:''}
+        </div>
+      </div>
+      <h3>${p.name}</h3>
+      <p class="desc">${p.desc}</p>
+      ${p.tech.length?`<div class="tech-chips">
+        ${shownTech.map(t=>`<span class="chip">${t}</span>`).join('')}
+        ${extra>0?`<span class="chip">+${extra}</span>`:''}
+      </div>`:''}
+      <button class="btn btn-outline details-btn" data-id="${p.id}">
+        تفاصيل المشروع
+        <svg class="icon" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+      </button>
+    </article>`;
+  }).join('');
+  // إعادة تفعيل الكشف للعناصر الجديدة (مع مراعاة تقليل الحركة)
+  if(reduce){ $$('#projectsGrid .reveal').forEach(el=>el.classList.add('is-visible')); }
+  else{ $$('#projectsGrid .reveal').forEach(el=>revealObserver.observe(el)); }
+}
+
+/* ============================================================
+   Modal
+   ============================================================ */
+const modal = $('#modal');
+let lastFocused = null;
+function openModal(id){
+  const p = PROJECTS.find(x=>x.id===id); if(!p) return;
+  lastFocused = document.activeElement;
+  $('#modalIcon').style.background = p.color;
+  $('#modalIcon').innerHTML = svg(p.icon);
+  $('#modalTitle').textContent = p.name;
+  $('#modalMeta').innerHTML = `<span class="tag">${p.sector}</span>${p.year?`<span class="tag year">${p.year}</span>`:''}`;
+  $('#modalPromo').textContent = '«'+p.promo+'»';
+  $('#modalDesc').textContent = p.desc;
+  $('#modalFeatures').innerHTML = p.features.map(f=>`<li>${svg('check')}<span>${f}</span></li>`).join('');
+  const hasTech = p.tech.length>0;
+  $('#modalTechHead').style.display = hasTech?'':'none';
+  $('#modalTech').style.display = hasTech?'':'none';
+  $('#modalTech').innerHTML = p.tech.map(t=>`<span class="chip">${t}</span>`).join('');
+  modal.classList.add('open');
+  document.body.style.overflow='hidden';
+  $('#modalClose').focus();
+}
+function closeModal(){
+  modal.classList.remove('open');
+  document.body.style.overflow='';
+  if(lastFocused) lastFocused.focus();
+}
+$('#modalClose').addEventListener('click',closeModal);
+modal.addEventListener('click',e=>{ if(e.target===modal) closeModal(); });
+document.addEventListener('keydown',e=>{
+  if(!modal.classList.contains('open')) return;
+  if(e.key==='Escape'){ closeModal(); return; }
+  if(e.key==='Tab'){
+    // حبس التركيز داخل المودال
+    const f=[...modal.querySelectorAll('button, a[href], [tabindex]:not([tabindex="-1"])')].filter(el=>el.offsetParent!==null);
+    if(!f.length) return;
+    const first=f[0], last=f[f.length-1];
+    if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); }
+    else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
+  }
+});
+
+/* التفويض: أزرار التفاصيل + الفلاتر */
+document.addEventListener('click',e=>{
+  const d = e.target.closest('.details-btn'); if(d){ openModal(d.dataset.id); return; }
+  const f = e.target.closest('.filter');
+  if(f){
+    $$('.filter').forEach(b=>{ b.classList.remove('active'); b.setAttribute('aria-pressed','false'); });
+    f.classList.add('active');
+    f.setAttribute('aria-pressed','true');
+    renderProjects(f.dataset.filter);
+  }
+});
+
+/* ============================================================
+   الثيم (نهاري/ليلي) مع الحفظ
+   ============================================================ */
+const root = document.documentElement;
+function setMetaTheme(t){
+  const mt=document.getElementById('metaTheme');
+  if(mt) mt.setAttribute('content', t==='dark'?'#070b16':'#f6f8fc');
+}
+function applyTheme(t){
+  root.setAttribute('data-theme',t);
+  setMetaTheme(t);
+  try{ localStorage.setItem('theme',t); }catch(e){}
+}
+(function initTheme(){
+  let t = null;
+  try{ t = localStorage.getItem('theme'); }catch(e){}
+  if(!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  root.setAttribute('data-theme',t);
+  setMetaTheme(t);
+})();
+$('#themeToggle').addEventListener('click',()=>{
+  applyTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');
+});
+
+/* ============================================================
+   قائمة الجوال
+   ============================================================ */
+const mm = $('#mobileMenu'), ham = $('#hamburger');
+function toggleMenu(force){
+  const open = force!==undefined?force:!mm.classList.contains('open');
+  mm.classList.toggle('open',open);
+  ham.setAttribute('aria-expanded',open);
+  $('#hamIcon').innerHTML = open
+    ? '<path d="M18 6 6 18M6 6l12 12"/>'
+    : '<line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/>';
+}
+ham.addEventListener('click',()=>toggleMenu());
+$$('#mobileMenu a').forEach(a=>a.addEventListener('click',()=>toggleMenu(false)));
+
+/* ============================================================
+   الكشف عند التمرير
+   ============================================================ */
+const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const revealObserver = new IntersectionObserver((entries)=>{
+  entries.forEach(en=>{
+    if(en.isIntersecting){ en.target.classList.add('is-visible'); revealObserver.unobserve(en.target); }
+  });
+},{threshold:.12, rootMargin:'0px 0px -40px 0px'});
+
+function initReveals(){
+  if(reduce){ $$('.reveal').forEach(el=>el.classList.add('is-visible')); return; }
+  $$('.reveal').forEach(el=>revealObserver.observe(el));
+}
+
+/* ============================================================
+   شريط التقدم + زر العودة للأعلى
+   ============================================================ */
+const progress = $('#progress'), toTop = $('#toTop');
+function onScroll(){
+  const h = document.documentElement;
+  const sc = h.scrollTop, max = h.scrollHeight - h.clientHeight;
+  progress.style.width = (max>0 ? (sc/max*100) : 0)+'%';
+  toTop.classList.toggle('show', sc>600);
+}
+window.addEventListener('scroll',onScroll,{passive:true});
+toTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:reduce?'auto':'smooth'}));
+
+/* ============================================================
+   الإقلاع
+   ============================================================ */
+renderProjects();
+initReveals();
+onScroll();
+// وسم كل الأيقونات الزخرفية بـ aria-hidden (القالبية والمولّدة)
+$$('svg.icon').forEach(s=>{ s.setAttribute('aria-hidden','true'); s.setAttribute('focusable','false'); });
+</script>
+</body>
+</html>
